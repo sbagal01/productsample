@@ -40,6 +40,8 @@ const cartSlice=createSlice({
             state.cart.push(action.payload);
         },remove:(state,action)=>{
             state.cart=state.cart.filter((prod)=>prod.id!==action.payload.id)
+        },findItem:(state,action)=>{
+            return state.cart;
         }
     }
 });
