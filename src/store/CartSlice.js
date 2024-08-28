@@ -41,7 +41,7 @@ const cartSlice=createSlice({
         },remove:(state,action)=>{
             state.cart=state.cart.filter((prod)=>prod.id!==action.payload.id)
         },findItem:(state,action)=>{
-            return 16;
+            return 15;
         }
     }
 });
