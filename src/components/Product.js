@@ -59,7 +59,7 @@ function Product() {
 
   return (
     <>
-      <h1>Products Dashboard</h1>
+      <h1>Products Display</h1>
       <Grid
         container
         style={{ margin: "10px" }}

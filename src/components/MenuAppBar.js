@@ -43,7 +43,7 @@ import * as React from 'react';
                 aria-label="login switch"
               />
             }
-            label={auth ? 'Logout' : 'Login'}
+            label={auth ? 'LogOut' : 'LogIn'}
           />
         </FormGroup>
         <AppBar position="static">
