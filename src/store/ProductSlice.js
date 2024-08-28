@@ -66,7 +66,7 @@ const productSlice=createSlice({
             state.product= filteredProduct;
             state.status='completed';
         },addProduct:(state,action)=>{
-            return 25;
+            return 26;
         }
     },
     extraReducers:(builder)=>{
