@@ -61,11 +61,11 @@ function Cart() {
                   </Typography>
                   <Rating name="rate" value={product.rating.rate} readOnly />
                   <Paper variation="outlined" sx={{ maxWidth: 50 }}>
-                    <Typography> $ {product.price}</Typography>
+                    <Typography> Rs {product.price}</Typography>
                   </Paper>
                 </CardContent>
                 <CardActions>
-                 <Button variant="outlined">Add</Button>
+                 <Button variant="outlined">Add Item</Button>
                  <Button variant="outlined" onClick={() => removeFromCart(product.id)}>Remove</Button>
                 </CardActions>
               </Card>

@@ -88,7 +88,7 @@ function Product() {
                   </Typography>
                   <Rating name="rate" value={product.rating.rate} readOnly />
                   <Paper variation="outlined" sx={{ maxWidth: 50 }}>
-                    <Typography> $ {product.price}</Typography>
+                    <Typography> Rs {product.price}</Typography>
                   </Paper>
                 </CardContent>
                 <CardActions>
